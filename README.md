@@ -2,7 +2,7 @@ This repository is part of the SOAP 2023 paper ``Extensible and Scalable Archite
 
 # Dependencies
 The code uses the commercial vulnerability binary scanner VUSC as a basis. In essence, this repository contains plug-ins for the VUSC scanner.
-In order to run the dynamic analyses, you need a VUSC server. Contact the folks at CyWare (https://secure-software.io/) for an academic license.
+In order to run the dynamic analyses, you need a VUSC server. Contact us via https://www.sit.fraunhofer.de/en/offers/projekte/vusc/ for an academic license.
 
 # Code
 
