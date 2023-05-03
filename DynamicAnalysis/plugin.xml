@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="de.codeinspect.dynamicvalues.GlobalRuntimeValueNotifier">
+      <GlobalRuntimeValueNotifier
+            class="de.codeinspect.dynamicanalysisprofiling.eval.GlobalEvalRuntimeValueNotifier"></GlobalRuntimeValueNotifier>
+   </extension>
+   <extension
+         point="de.codeinspect.dynamicvalues.analysisserver.AndroidExecutorEventHandler">
+      <AndroidExecutorEventHandler
+            class="de.codeinspect.dynamicanalysisprofiling.eval.AndroidExecutorEventHandler">
+      </AndroidExecutorEventHandler>
+   </extension>
+</plugin>
