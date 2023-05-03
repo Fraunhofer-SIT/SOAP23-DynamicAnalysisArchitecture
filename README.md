@@ -15,6 +15,7 @@ This plug-in prints more information than the evaluation plug-in and can be used
 ## ```de.codeinspect.dynamicanalysisprofiling.eval```
 
 This Code used for the evaluation. It profiles the events and writes out the event data to files, which can get rather large. it uses the vulnerability analyses of VUSC to determine the used sources/sinks for the data flow analysis and requested values. This project is used to obtain metadata about the events (number and size).
+Note that the generated data may easily surpass a gigabyte per App. Therefore, we decided to not supply the data in this repository. Instead, data can be requested from us or replicated using the plug-ins and the VUSC scanner.
 
 
 # Apps
